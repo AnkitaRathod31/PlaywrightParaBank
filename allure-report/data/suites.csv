@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","21042","login Testers","chrome","2026-04-14","passed","2026-04-14","","TCMultipleUserLogin.spec.js","",""
+"","22472","login AutoUser","chrome","2026-04-14","passed","2026-04-14","","TCMultipleUserLogin.spec.js","",""

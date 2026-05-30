@@ -1,0 +1,19 @@
+{
+  "name": "projectpombank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "smoke": "npx playwright test --grep @smoke --project=chrome",
+  "regression": "npx playwright test --grep-invert \"@smoke\" --project=chrome"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2",
+    "allure-playwright": "^3.7.1"
+  }
+}
